@@ -32,6 +32,15 @@
   		<servlet-name>s2j_servlet</servlet-name>
   		<url-pattern>/s2j</url-pattern>
   	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>session_servlet</servlet-name>
+  		<servlet-class>sj.SessionServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>session_servlet</servlet-name>
+  		<url-pattern>/session</url-pattern>
+  	</servlet-mapping>
 
     <!-- ウェルカムファイルの設定 -->
     <welcome-file-list>
