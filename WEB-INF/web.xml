@@ -50,6 +50,15 @@
   		<servlet-name>cookie_servlet</servlet-name>
   		<url-pattern>/cookie</url-pattern>
   	</servlet-mapping>
+  	
+  	<servlet>
+	    <servlet-name>validation_servlet</servlet-name>
+	    <servlet-class>sj.ValidationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>validation_servlet</servlet-name>
+	    <url-pattern>/validation</url-pattern>
+	</servlet-mapping>
 
     <!-- ウェルカムファイルの設定 -->
     <welcome-file-list>
